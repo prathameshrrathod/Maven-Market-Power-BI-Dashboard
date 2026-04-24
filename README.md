@@ -1,81 +1,40 @@
 # Maven-Market-Power-BI-Dashboard
 Retail performance analysis using Power BI (customers, products, regions)
 
-📊 Maven Market Performance Dashboard
+# Maven Market Performance Dashboard (Power BI)
 
-This project is a Power BI dashboard designed to analyze retail business performance from a financial perspective using a transactional dataset.
+## Overview
+This project is an end to end Power BI dashboard analyzing retail performance across customers, products, and regions. It follows a finance oriented approach focusing on revenue, profitability, and business performance trends.
+The dashboard is designed to provide clear insights into how the business performs across different dimensions, enabling better decision making.
 
-🎯 Objective
-Revenue and profitability
-Growth trends over time
-Product and brand performance
-Geographic contribution
-Customer segmentation
+## Key Features
+* Executive KPI tracking: Total Revenue, Total Profit, Profit Margin %, YoY Growth
+* Customer analysis: revenue distribution, segmentation, and contribution
+* Geographic insights: revenue contribution by country
+* Product performance: top-performing products and revenue trends
+* Revenue vs Profit analysis to evaluate margin consistency
 
-🧱 Data Model
-The project uses a hybrid star schema:
-Fact Tables:
-Transaction Data
-Return Data
-Dimension Tables:
-Customers
-Products
-Stores
-Regions
-Calendar
+## Data Model
+The project uses a structured data model with multiple related tables:
+* Customers
+* Products
+* Transaction Data
+* Return Data
+* Stores
+* Regions
+* Calendar
+Relationships are built to support time intelligence, filtering, and accurate aggregations across all visuals.
 
-This structure enables flexible and scalable analysis across multiple business dimensions.
+## Key Insights
+* Revenue is highly fragmented across customers
+* Top customers individually contribute less than 1% of total revenue
+* Profit margins are consistent across most products
+* USA contributes approximately 67% of total revenue, indicating geographic dependency
 
-📈 Key Metrics (DAX Measures)
-Total Revenue
-Total Profit
-Profit Margin %
-Year-over-Year Growth %
-Total Transactions
-Return Rate %
-Profit per Transaction
-Top Customer Contribution %
+## Tools & Technologies
+* Power BI
+* DAX (Data Analysis Expressions)
+* Data Modeling
+* Data Visualization
 
-📊 Dashboard Pages
-1. Executive Overview
-High-level KPIs (Revenue, Profit, Margin, Growth)
-Brand performance
-Revenue trends
-Country contribution
-2. Geographic Analysis
-Map visualization of revenue by country
-Country-level comparison
-Revenue share and contribution analysis
-3. Product Performance
-Top products by revenue
-Revenue vs Profit distribution (scatter plot)
-Brand level insights
-4. Customer Insights
-Top customer performance
-Revenue contribution (treemap)
-Customer segmentation
-Revenue distribution and concentration metrics
 
-💰 Key Insights
-Revenue is heavily concentrated in the USA (~67%)
-Strong linear relationship between revenue and profit
-Customer base is skewed toward lower-value segments
-Revenue distribution is fragmented, indicating low concentration risk
-
-🛠️ Tools & Technologies
-Power BI
-DAX
-Data Modeling
-
-🙏 Acknowledgment
-Dataset inspired by content from a Udemy instructor.
-The dataset was modified and extended to support finance oriented analysis.
-
-📌 Conclusion
-This project demonstrates the ability to:
-Design structured data models
-Build business focused KPIs using DAX
-Create clean and effective dashboards
-Translate raw data into actionable financial insights
-
-If you have feedback or suggestions, feel free to connect!
